@@ -5,4 +5,4 @@ OS DETECTION:
   --osscan-guess: Guess OS more aggressively
    -A: Enable OS detection, version detection, script scanning, and traceroute
    
-   Example-nmap -osscan-guess -A -oA <name> 127.0.0.1
+   Example- nmap --osscan-guess -A -oA <name> <IP ADDRESS>
